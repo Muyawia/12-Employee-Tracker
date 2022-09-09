@@ -14,7 +14,6 @@ CREATE TABLE employee_role (
   department_id INT NOT NULL,
   FOREIGN KEY (department_id)
   REFERENCES department(id)
-  
 );
 
 CREATE TABLE employee (
